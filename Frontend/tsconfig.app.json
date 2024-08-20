@@ -19,8 +19,8 @@
 
     /* Linting */
     "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
+    "noUnusedLocals": false, // set to fase, so it allows React on top
+    "noUnusedParameters": false, //  set to fase, so it pass shadcn ui components
     "noFallthroughCasesInSwitch": true,
     
     "baseUrl": ".",

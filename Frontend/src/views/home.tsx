@@ -97,10 +97,6 @@ export default function Homepage() {
 		setCurrentPage(page);
 	};
 
-	// const editClient = async (client: Client) => {
-
-	// };
-
 	const deleteClient = useCallback(
 		async (client: Client) => {
 			try {

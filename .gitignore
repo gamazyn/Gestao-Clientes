@@ -490,6 +490,6 @@ testem.log
 Thumbs.db
  
 # Db files
-#*.db
+*.db
 *.db-shm
 *.db-wal

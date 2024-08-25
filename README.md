@@ -7,9 +7,9 @@ Projeto criado implementando [.NET 8](https://dotnet.microsoft.com/pt-br/) com [
 
 ## Dockerfile (WIP)
 
-Em breve, será possível rodar o projeto completo via Docker, usando as configurações do Dockerfile disponível. Para executá-lo basta rodar os seguintes comandos a partir da pasta raiz do projeto:
+É possível rodar o projeto completo via Docker, usando as configurações do Dockerfile disponível. Para executá-lo basta rodar os seguintes comandos a partir da pasta raiz do projeto:
 
-    (Comando a ser implementado)
+    docker-compose up --build
 
 ## Backend
 
@@ -32,6 +32,8 @@ Já para o frontend, abra a pasta `Frontend` no terminal e execute os seguintes 
 Há um pequeno programa feito para gerar dados para teste dentro do projeto de frontend, gerando 10 clientes por execução.  Com o projeto de backend rodando, basta executar o comando abaixo quantas vezes forem necessárias a partir da pasta `Frontend`:
 
     npm tsx src/utils/data.ts 
+
+Além disso há um arquivo de banco de dados SQLite de teste já pronto para ser utilizado pela aplicação.
 
 # Contatos
 

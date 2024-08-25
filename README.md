@@ -5,7 +5,7 @@ Projeto criado implementando [.NET 8](https://dotnet.microsoft.com/pt-br/) com [
 
 # Como executar
 
-## Dockerfile (WIP)
+## Docker
 
 É possível rodar o projeto completo via Docker, usando as configurações do Dockerfile disponível. Para executá-lo basta rodar os seguintes comandos a partir da pasta raiz do projeto:
 
